@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p{
+            padding:0;
+            margin:0;
+        }
+        html,body,section{
+            width:100%;
+            height:100%;
+        }
+        a{
+            text-decoration: none;
+        }
+        #master{
+            font-size: 45px;
+            line-height: 66px;
+            /*text-rendering: optimizeLegibility*/
+        }
+        #master-container{
+            background:  #F5C59C;
+            animation: master-container-bg 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:100%;
+            height:100%;
+        }
+        #master-container-scroller{
+            position: relative;
+            height:66px;
+            overflow: hidden;
+        }
+        #master-container-scroller .master-container-scroller_item{
+            animation:scroll 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+        }
+        
+        @keyframes master-container-bg {
+            0.0% {
+                background-color: #F5C59C
+            }
+            3.7037037037037037% {
+                background-color: #F5C59C
+            }
+            11.11111111111111% {
+                background-color: #ECC9CB
+            }
+            14.814814814814815% {
+                 background-color: #ECC9CB
+             }
+            22.22222222222222% {
+                background-color: #D9E2CB
+            }
+            25.925925925925927% {
+                background-color: #D9E2CB
+            }
+            33.333333333333336% {
+                background-color: #f6c599
+            }
+            37.03703703703704% {
+                background-color: #f6c599
+            }
+            44.44444444444444% {
+                background-color: #c4bbd3
+            }
+            48.148148148148145% {
+                background-color: #c4bbd3
+            }
+            55.55555555555556% {
+                background-color: #F9E7AF
+            }
+            59.25925925925926% {
+                background-color: #F9E7AF
+            }
+            66.66666666666667% {
+                background-color: #B4E2EE
+            }
+            70.37037037037037% {
+                background-color: #B4E2EE
+            }
+            77.77777777777777% {
+                background-color: #cbe5f4
+            }
+            81.48148148148148% {
+                background-color: #cbe5f4
+            }
+            88.88888888888889% {
+                background-color: #d2e7e2
+            }
+            92.5925925925926% {
+                background-color: #d2e7e2
+            }
+            100.0% {
+                background-color: #F5C59C
+            }
+        }
+        @keyframes scroll {
+            0.0% {
+                transform: translateY(0px)
+            }
+            3.7037037037037037% {
+                transform: translateY(0px)
+            }
+            11.11111111111111% {
+                transform: translateY(-66px)
+            }
+            14.814814814814815% {
+                transform: translateY(-66px)
+            }
+            22.22222222222222% {
+                transform: translateY(-132px)
+            }
+            25.925925925925927% {
+                transform: translateY(-132px)
+            }
+            33.333333333333336% {
+                transform: translateY(-198px)
+            }
+            37.03703703703704% {
+                transform: translateY(-198px)
+            }
+            44.44444444444444% {
+                transform: translateY(-264px)
+            }
+            48.148148148148145% {
+                transform: translateY(-264px)
+            }
+            55.55555555555556% {
+                transform: translateY(-330px)
+            }
+            59.25925925925926% {
+                transform: translateY(-330px)
+            }
+            66.66666666666667% {
+                transform: translateY(-396px)
+            }
+            70.37037037037037% {
+                transform: translateY(-396px)
+            }
+            77.77777777777777% {
+                transform: translateY(-462px)
+            }
+            81.48148148148148% {
+                transform: translateY(-462px)
+            }
+            88.88888888888889% {
+                transform: translateY(-528px)
+            }
+            92.5925925925926% {
+                transform: translateY(-528px)
+            }
+            100.0% {
+                transform: translateY(-594px)
+            }
+        }
+    </style>
+</head>
+<body>
+<section class="section">
+    <div class='masthead-image' id='master-container'>
+        <div class="content center">
+            <div id='master'>
+                <div>Hello</div>
+                <div id="master-container-scroller">
+                    <div class='master-container-scroller_item'>
+                        <a class='cta-link' href='#'>tom</a>
+                    </div>
+                    <div class='master-container-scroller_item'>
+                        <a class='cta-link' href='#'>frank</a>
+                    </div>
+                    <div class='master-container-scroller_item'>
+                        <a class='cta-link' href='#'>simon</a>
+                    </div>
+                    <div class='master-container-scroller_item'>
+                        <a class='cta-link' href='#'>alice</a>
+                    </div>
+                    <div class='master-container-scroller_item'>
+                        <a class='cta-link' href='#'>cathy</a>
+                    </div>
+                    <div class='master-container-scroller_item'>
+                        <a class='cta-link' href='#'>di</a>
+                    </div>
+                    <div class='master-container-scroller_item'>
+                        <a class='cta-link' href='#'>fourier</a>
+                    </div>
+                    <div class='master-container-scroller_item'>
+                        <a class='cta-link' href='#'>frankenstan</a>
+                    </div>
+                    <div class='master-container-scroller_item'>
+                        <a class='cta-link' href='#'>luffy</a>
+                    </div>
+                    <div class='master-container-scroller_item'>
+                        <a class='cta-link' href='#'>tom</a>
+                    </div>
+                </div>
+                <div>Nice to see you.</div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
